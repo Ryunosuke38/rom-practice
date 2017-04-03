@@ -60,6 +60,10 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.0.5)
+    config (1.4.0)
+      activesupport (>= 3.0)
+      deep_merge (~> 1.1.1)
+    deep_merge (1.1.1)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
     dry-configurable (0.5.0)
@@ -252,6 +256,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
+  config
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
