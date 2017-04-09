@@ -20,6 +20,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'config'
 gem 'sequel'
+gem 'draper', '>= 3.0.0.pre1'
 
 group :development, :test do
   gem 'byebug', platform: :mri
